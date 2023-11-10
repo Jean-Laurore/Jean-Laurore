@@ -254,17 +254,16 @@ footer > p {
   margin: 0 auto; /* Center the image horizontally */
 }
 
+/* 
 @media only screen and (max-width: 768px) {
   body {
     font-size: 1.4rem;
-    /* Add styles specific to smaller screens here */
   }
 }
 
-/* Styles for screens with a maximum width of 480px (typical for mobile phones) */
 @media only screen and (max-width: 480px) {
   body {
     font-size: 1.2rem;
-    /* Add styles specific to even smaller screens here */
   }
-}
+} 
+*/
