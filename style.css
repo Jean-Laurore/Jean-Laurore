@@ -134,6 +134,7 @@ h1, h2 {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -256,17 +257,109 @@ footer > p {
   margin: 0 auto; /* Center the image horizontally */
 }
 
-
-/* @media only screen and (max-width: 768px) {
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
   body {
     font-size: 1.4rem;
-    width: 100%;
+  }
+
+  /* styles for tablets and smaller devices */
+  .welcome-section {
+    padding: 8rem 2rem; /* padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .projects-section {
+    padding: 8rem 2rem; /* padding for smaller screens */
+  }
+
+  .projects-section-header {
+    margin-bottom: 4rem; /* Reduce margin for smaller screens */
+  }
+
+  .project {
+    /* Adjust styles for project tiles on smaller screens */
+    padding: 8px;
+  }
+
+  .project-img {
+    height: auto; /* Ensure images are responsive */
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+    padding: 1.5rem 0.5rem;
+  }
+
+  .contact-section {
+    padding: 8rem 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .contact-links {
+    margin-top: 2rem; /* Reduce top margin for smaller screens */
+  }
+
+  footer {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  footer > p {
+    margin: 1rem;
   }
 }
 
 @media only screen and (max-width: 480px) {
   body {
     font-size: 1.2rem;
-    width: 100%;
   }
-}  */
+
+  /* Adjust styles for mobile phones */
+  .welcome-section {
+    padding: 6rem 1rem; /* Further reduce padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .project {
+    /* Adjust styles for project tiles on smaller screens */
+    padding: 6px;
+  }
+
+  .projects-section {
+    padding: 6rem 1rem; /* Further reduce padding for smaller screens */
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .contact-section {
+    padding: 6rem 1rem; /* Further reduce padding for smaller screens */
+  }
+
+  .contact-links {
+    margin-top: 1rem; /* Reduce top margin further for smaller screens */
+  }
+
+  footer {
+    padding: 0.5rem; /* Further reduce padding for smaller screens */
+  }
+
+  footer > p {
+    margin: 0.5rem;
+  }
+}
