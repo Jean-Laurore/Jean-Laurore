@@ -194,6 +194,52 @@ h1, h2 {
   transform: scale(1.1); 
 }
 
+/* Style for certifications section */
+.certifications-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  width: 100%;
+  background-image: linear-gradient(62deg, #800000 0%, #000000 100%);
+}
+
+/* Style for certifications section header */
+.certifications-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+
+/* Style for certifications grid */
+.certifications-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Style for certification tiles */
+.certification {
+  text-decoration: none;
+  color: inherit;
+  margin: 15px;
+  width: 500px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+/* Style for certification images */
+.certification-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Style for certification titles */
+.certification-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+
 .contact-section {
   display: flex;
   flex-direction: column;
